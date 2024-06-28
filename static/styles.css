@@ -1,0 +1,150 @@
+/* Import Overpass Mono font */
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;500;600;700&display=swap");
+
+/* General Styles */
+body {
+  font-family: "Overpass Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  font-size: 16px; /* Base font size */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 60px); /* Subtract header height */
+}
+
+.column {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Language Selector Styles */
+#languageSelector {
+  display: flex;
+  gap: 10px;
+}
+
+.lang-btn {
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  font-family: "Overpass Mono", monospace;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.lang-btn.selected {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Chapter List Styles */
+#chapterList {
+  flex: 0 0 10%;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+}
+
+#chapterList button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-family: "Overpass Mono", monospace;
+}
+
+#chapterList button:hover {
+  background-color: #f0f0f0;
+}
+
+#chapterList button.selected {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Verse List Styles */
+#verseList {
+  flex: 0 0 65%;
+  background-color: #fff;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.verse {
+  margin-bottom: 30px;
+}
+
+.verse-number {
+  font-weight: bold;
+}
+
+.commentary {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-left: 4px solid #ccc;
+  font-size: 0.9em;
+}
+
+/* Commentator List Styles */
+#commentatorList {
+  flex: 0 0 25%;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+}
+
+#commentatorList label {
+  display: block;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-family: "Overpass Mono", monospace;
+  background-color: #fff;
+  border: none;
+  text-align: left;
+}
+
+#commentatorList label:hover {
+  background-color: #f0f0f0;
+}
+
+#commentatorList label.selected {
+  background-color: #000;
+  color: #fff;
+}
+
+#commentatorList input[type="checkbox"] {
+  display: none; /* Hide the checkbox */
+}
+
+/* Headings */
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}

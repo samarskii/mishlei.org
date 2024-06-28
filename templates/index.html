@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mishlei</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Mishlei</h1>
+      <div id="languageSelector">
+        <button class="lang-btn" id="lang-en">EN</button>
+        <button class="lang-btn" id="lang-ru">RU</button>
+      </div>
+    </header>
+    <main>
+      <div id="chapterList" class="column">
+        <h2>Chapters</h2>
+        <button id="todayButton">Today</button>
+        <!-- Chapters will be loaded here -->
+      </div>
+      <div id="verseList" class="column">
+        <h2>Chapter <span id="currentChapter">1</span></h2>
+        <!-- Verses will be loaded here -->
+      </div>
+      <div id="commentatorList" class="column">
+        <h2>Commentators</h2>
+        <!-- Commentators will be listed here -->
+      </div>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
