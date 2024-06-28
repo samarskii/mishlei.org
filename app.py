@@ -1,4 +1,3 @@
-# app.py
 from flask import Flask, render_template, jsonify
 from chapters import chapters_en, chapters_ru
 from comments import comments_en, comments_ru

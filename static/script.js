@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const translations = {
     en: {
-      mishlei: "Mishlei",
+      mishlei: "Mishlei - Proverbs",
       chapters: "Chapters",
       today: "Today",
       chapter: "Chapter",
