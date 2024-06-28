@@ -1,0 +1,14 @@
+
+
+version 1.0.0
+
+28 Jun 2024
+
+--When you change the language, automatically switch to today's chapter
+--Automatically open today's chapter the first time you access the site
+--Add Today's Chapter.
+--Get rid of this box visually when selecting commentators
+--Remove the black line in the Header
+--Make the language selection more like on the sod site
+--Add a number next to the commenters that shows exactly how many of their comments are on this particular currently open chapter.
+--When changing the language from English to Russian, also change the Site Name, the name of the chapters on the left, and the name of the commenters on the right.
