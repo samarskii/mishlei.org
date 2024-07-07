@@ -1,7 +1,12 @@
 
 
 
+version 1.0.2
 
+7 Jul 2024
+
+--Adding Ukrainian and Polish language
+--Adding new structure for each language separated files for comments and chapters
 
 
 
