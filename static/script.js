@@ -16,6 +16,22 @@ document.addEventListener("DOMContentLoaded", function () {
       commentators: "Комментаторы",
       chapterPrefix: "Глава",
     },
+    ua: {
+      mishlei: "Мішлей - Прислів'я",
+      chapters: "Розділи",
+      today: "Сьогодні",
+      chapter: "Розділ",
+      commentators: "Коментатори",
+      chapterPrefix: "Розділ",
+    },
+    pl: {
+      mishlei: "Mishlei - Przysłowia",
+      chapters: "Rozdziały",
+      today: "Dzisiaj",
+      chapter: "Rozdział",
+      commentators: "Komentatorzy",
+      chapterPrefix: "Rozdział",
+    },
   };
 
   const chapterList = document.getElementById("chapterList");
